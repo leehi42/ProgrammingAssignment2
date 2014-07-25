@@ -1,3 +1,6 @@
+## This is the programming assignment number 2 for the R Programming in Coursera.
+## This program is about caching the inverse of a matrix assuming that the matrix supplied is always invertible.
+
 ## makeCacheMatrix creates a special "matrix" object that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -28,4 +31,7 @@ cacheSolve <- function(x, ...) {
   m<-solve(matrix, ...)
   x$setmatrix(m)
   m
+##the inverse of the matrix
 }
+
+##end of the program
